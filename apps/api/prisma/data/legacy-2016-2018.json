@@ -1,0 +1,920 @@
+{
+  "source": "Plastics CC Stats (2016-2018) Final.pdf",
+  "seasons": "2016-2018",
+  "notes": [
+    "Pre-aggregated career totals; no per-match detail in the source.",
+    "5wi recorded only for Joey Anderson (1) and Jerry Jamieson (1).",
+    "'John Papadopoulos' batting row was spelled 'John Papadopolous' (kept as alias).",
+    "'Callum' and 'Calum Mathison' are listed as separate players in the source.",
+    "Players with 0 innings / 0 balls are kept as Player records but have no batting/bowling totals."
+  ],
+  "players": [
+    {
+      "name": "Alex Armytage",
+      "aliases": [
+        "Alex Armytage"
+      ],
+      "batting": null,
+      "bowling": null
+    },
+    {
+      "name": "Alex H",
+      "aliases": [
+        "Alex H"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 22,
+        "notOuts": 0,
+        "fours": 4,
+        "sixes": 0,
+        "highScore": 22,
+        "ballsFaced": 23,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Alex Webster",
+      "aliases": [
+        "Alex Webster"
+      ],
+      "batting": {
+        "innings": 17,
+        "runs": 684,
+        "notOuts": 2,
+        "fours": 74,
+        "sixes": 30,
+        "highScore": 113,
+        "ballsFaced": 502,
+        "fifties": 4,
+        "hundreds": 2
+      },
+      "bowling": {
+        "ballsBowled": 84,
+        "maidens": 0,
+        "wickets": 5,
+        "runsConceded": 78,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Ali",
+      "aliases": [
+        "Ali"
+      ],
+      "batting": null,
+      "bowling": null
+    },
+    {
+      "name": "Anthony Mortimer",
+      "aliases": [
+        "Anthony Mortimer"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 15,
+        "notOuts": 0,
+        "fours": 2,
+        "sixes": 0,
+        "highScore": 15,
+        "ballsFaced": 15,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Billy Soomro",
+      "aliases": [
+        "Billy Soomro"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 80,
+        "notOuts": 0,
+        "fours": 12,
+        "sixes": 0,
+        "highScore": 80,
+        "ballsFaced": 76,
+        "fifties": 1,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 12,
+        "maidens": 0,
+        "wickets": 2,
+        "runsConceded": 12,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Callum",
+      "aliases": [
+        "Callum"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 5,
+        "notOuts": 0,
+        "fours": 1,
+        "sixes": 0,
+        "highScore": 5,
+        "ballsFaced": 10,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 18,
+        "maidens": 0,
+        "wickets": 1,
+        "runsConceded": 33,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Calum Mathison",
+      "aliases": [
+        "Calum Mathison"
+      ],
+      "batting": null,
+      "bowling": {
+        "ballsBowled": 48,
+        "maidens": 0,
+        "wickets": 3,
+        "runsConceded": 53,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Charlie Bradbury",
+      "aliases": [
+        "Charlie Bradbury"
+      ],
+      "batting": {
+        "innings": 20,
+        "runs": 271,
+        "notOuts": 2,
+        "fours": 37,
+        "sixes": 3,
+        "highScore": 55,
+        "ballsFaced": 354,
+        "fifties": 1,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 400,
+        "maidens": 4,
+        "wickets": 18,
+        "runsConceded": 471,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Dom Gillan",
+      "aliases": [
+        "Dom Gillan"
+      ],
+      "batting": {
+        "innings": 2,
+        "runs": 72,
+        "notOuts": 0,
+        "fours": 11,
+        "sixes": 1,
+        "highScore": 72,
+        "ballsFaced": 55,
+        "fifties": 1,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Dom Smith",
+      "aliases": [
+        "Dom Smith"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 2,
+        "notOuts": 0,
+        "fours": 0,
+        "sixes": 0,
+        "highScore": 2,
+        "ballsFaced": 11,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Ed Moore",
+      "aliases": [
+        "Ed Moore"
+      ],
+      "batting": {
+        "innings": 3,
+        "runs": 30,
+        "notOuts": 0,
+        "fours": 2,
+        "sixes": 1,
+        "highScore": 19,
+        "ballsFaced": 62,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 6,
+        "maidens": 0,
+        "wickets": 0,
+        "runsConceded": 8,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Elliott",
+      "aliases": [
+        "Elliott"
+      ],
+      "batting": {
+        "innings": 2,
+        "runs": 5,
+        "notOuts": 0,
+        "fours": 0,
+        "sixes": 0,
+        "highScore": 3,
+        "ballsFaced": 24,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 24,
+        "maidens": 0,
+        "wickets": 1,
+        "runsConceded": 26,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Fraser",
+      "aliases": [
+        "Fraser"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 0,
+        "notOuts": 0,
+        "fours": 0,
+        "sixes": 0,
+        "highScore": 0,
+        "ballsFaced": 2,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Gav Hudson",
+      "aliases": [
+        "Gav Hudson"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 1,
+        "notOuts": 0,
+        "fours": 0,
+        "sixes": 0,
+        "highScore": 1,
+        "ballsFaced": 12,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Henry Hobbs",
+      "aliases": [
+        "Henry Hobbs"
+      ],
+      "batting": null,
+      "bowling": {
+        "ballsBowled": 6,
+        "maidens": 0,
+        "wickets": 0,
+        "runsConceded": 13,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "James Dewhirst",
+      "aliases": [
+        "James Dewhirst"
+      ],
+      "batting": null,
+      "bowling": null
+    },
+    {
+      "name": "James Heis",
+      "aliases": [
+        "James Heis"
+      ],
+      "batting": {
+        "innings": 3,
+        "runs": 113,
+        "notOuts": 1,
+        "fours": 14,
+        "sixes": 4,
+        "highScore": 65,
+        "ballsFaced": 73,
+        "fifties": 1,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "James Sandham",
+      "aliases": [
+        "James Sandham"
+      ],
+      "batting": {
+        "innings": 7,
+        "runs": 35,
+        "notOuts": 1,
+        "fours": 3,
+        "sixes": 0,
+        "highScore": 18,
+        "ballsFaced": 84,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 216,
+        "maidens": 3,
+        "wickets": 7,
+        "runsConceded": 198,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Jamie Doy",
+      "aliases": [
+        "Jamie Doy"
+      ],
+      "batting": {
+        "innings": 15,
+        "runs": 13,
+        "notOuts": 7,
+        "fours": 1,
+        "sixes": 0,
+        "highScore": 4,
+        "ballsFaced": 47,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 458,
+        "maidens": 7,
+        "wickets": 17,
+        "runsConceded": 416,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Jerry Jamieson",
+      "aliases": [
+        "Jerry Jamieson"
+      ],
+      "batting": {
+        "innings": 12,
+        "runs": 128,
+        "notOuts": 1,
+        "fours": 21,
+        "sixes": 1,
+        "highScore": 36,
+        "ballsFaced": 167,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 317,
+        "maidens": 4,
+        "wickets": 9,
+        "runsConceded": 265,
+        "fiveWicketInnings": 1
+      }
+    },
+    {
+      "name": "Joey Anderson",
+      "aliases": [
+        "Joey Anderson"
+      ],
+      "batting": {
+        "innings": 11,
+        "runs": 234,
+        "notOuts": 3,
+        "fours": 28,
+        "sixes": 8,
+        "highScore": 62,
+        "ballsFaced": 174,
+        "fifties": 1,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 352,
+        "maidens": 7,
+        "wickets": 14,
+        "runsConceded": 337,
+        "fiveWicketInnings": 1
+      }
+    },
+    {
+      "name": "John Papadopoulos",
+      "aliases": [
+        "John Papadopolous",
+        "John Papadopoulos"
+      ],
+      "batting": {
+        "innings": 3,
+        "runs": 13,
+        "notOuts": 0,
+        "fours": 1,
+        "sixes": 0,
+        "highScore": 6,
+        "ballsFaced": 18,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 84,
+        "maidens": 1,
+        "wickets": 2,
+        "runsConceded": 98,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Jon Thornhill",
+      "aliases": [
+        "Jon Thornhill"
+      ],
+      "batting": {
+        "innings": 4,
+        "runs": 105,
+        "notOuts": 0,
+        "fours": 11,
+        "sixes": 2,
+        "highScore": 49,
+        "ballsFaced": 141,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 18,
+        "maidens": 0,
+        "wickets": 1,
+        "runsConceded": 18,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Leo Beacroft",
+      "aliases": [
+        "Leo Beacroft"
+      ],
+      "batting": {
+        "innings": 7,
+        "runs": 56,
+        "notOuts": 1,
+        "fours": 7,
+        "sixes": 0,
+        "highScore": 26,
+        "ballsFaced": 140,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Liam Killen",
+      "aliases": [
+        "Liam Killen"
+      ],
+      "batting": null,
+      "bowling": null
+    },
+    {
+      "name": "Maithri Jayasuriya",
+      "aliases": [
+        "Maithri Jayasuriya"
+      ],
+      "batting": {
+        "innings": 14,
+        "runs": 128,
+        "notOuts": 1,
+        "fours": 14,
+        "sixes": 1,
+        "highScore": 27,
+        "ballsFaced": 221,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 366,
+        "maidens": 8,
+        "wickets": 13,
+        "runsConceded": 270,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Mark Davies",
+      "aliases": [
+        "Mark Davies"
+      ],
+      "batting": {
+        "innings": 12,
+        "runs": 264,
+        "notOuts": 2,
+        "fours": 37,
+        "sixes": 7,
+        "highScore": 46,
+        "ballsFaced": 181,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 96,
+        "maidens": 1,
+        "wickets": 4,
+        "runsConceded": 82,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Matthew Webb",
+      "aliases": [
+        "Matthew Webb"
+      ],
+      "batting": {
+        "innings": 16,
+        "runs": 178,
+        "notOuts": 3,
+        "fours": 29,
+        "sixes": 0,
+        "highScore": 35,
+        "ballsFaced": 186,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 606,
+        "maidens": 6,
+        "wickets": 23,
+        "runsConceded": 638,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Michael Lizut",
+      "aliases": [
+        "Michael Lizut"
+      ],
+      "batting": {
+        "innings": 3,
+        "runs": 65,
+        "notOuts": 0,
+        "fours": 9,
+        "sixes": 2,
+        "highScore": 52,
+        "ballsFaced": 58,
+        "fifties": 1,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 78,
+        "maidens": 1,
+        "wickets": 3,
+        "runsConceded": 67,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Mike Wills",
+      "aliases": [
+        "Mike Wills"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 0,
+        "notOuts": 0,
+        "fours": 0,
+        "sixes": 0,
+        "highScore": 0,
+        "ballsFaced": 0,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 48,
+        "maidens": 0,
+        "wickets": 2,
+        "runsConceded": 46,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Mike Winter",
+      "aliases": [
+        "Mike Winter"
+      ],
+      "batting": {
+        "innings": 12,
+        "runs": 49,
+        "notOuts": 0,
+        "fours": 5,
+        "sixes": 0,
+        "highScore": 14,
+        "ballsFaced": 148,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 24,
+        "maidens": 0,
+        "wickets": 1,
+        "runsConceded": 22,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Niall Jackson",
+      "aliases": [
+        "Niall Jackson"
+      ],
+      "batting": {
+        "innings": 8,
+        "runs": 1,
+        "notOuts": 1,
+        "fours": 0,
+        "sixes": 0,
+        "highScore": 1,
+        "ballsFaced": 33,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 156,
+        "maidens": 0,
+        "wickets": 5,
+        "runsConceded": 199,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Pete Warman",
+      "aliases": [
+        "Pete Warman"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 50,
+        "notOuts": 1,
+        "fours": 5,
+        "sixes": 1,
+        "highScore": 50,
+        "ballsFaced": 39,
+        "fifties": 1,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Peter Bishop",
+      "aliases": [
+        "Peter Bishop"
+      ],
+      "batting": {
+        "innings": 10,
+        "runs": 30,
+        "notOuts": 2,
+        "fours": 4,
+        "sixes": 0,
+        "highScore": 7,
+        "ballsFaced": 50,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 294,
+        "maidens": 3,
+        "wickets": 7,
+        "runsConceded": 216,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Peter Oliver",
+      "aliases": [
+        "Peter Oliver"
+      ],
+      "batting": {
+        "innings": 19,
+        "runs": 131,
+        "notOuts": 2,
+        "fours": 12,
+        "sixes": 0,
+        "highScore": 19,
+        "ballsFaced": 307,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 12,
+        "maidens": 0,
+        "wickets": 1,
+        "runsConceded": 9,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Phil Byrne",
+      "aliases": [
+        "Phil Byrne"
+      ],
+      "batting": null,
+      "bowling": null
+    },
+    {
+      "name": "Richard (Softball)",
+      "aliases": [
+        "Richard (Softball)"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 1,
+        "notOuts": 0,
+        "fours": 0,
+        "sixes": 0,
+        "highScore": 1,
+        "ballsFaced": 4,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Robert Bishop",
+      "aliases": [
+        "Robert Bishop"
+      ],
+      "batting": {
+        "innings": 19,
+        "runs": 269,
+        "notOuts": 1,
+        "fours": 37,
+        "sixes": 1,
+        "highScore": 49,
+        "ballsFaced": 515,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 18,
+        "maidens": 0,
+        "wickets": 0,
+        "runsConceded": 31,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Saj Ali",
+      "aliases": [
+        "Saj Ali"
+      ],
+      "batting": null,
+      "bowling": null
+    },
+    {
+      "name": "Saril",
+      "aliases": [
+        "Saril"
+      ],
+      "batting": {
+        "innings": 9,
+        "runs": 67,
+        "notOuts": 3,
+        "fours": 10,
+        "sixes": 1,
+        "highScore": 15,
+        "ballsFaced": 66,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 384,
+        "maidens": 1,
+        "wickets": 14,
+        "runsConceded": 404,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Seb",
+      "aliases": [
+        "Seb"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 0,
+        "notOuts": 0,
+        "fours": 0,
+        "sixes": 0,
+        "highScore": 0,
+        "ballsFaced": 1,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": null
+    },
+    {
+      "name": "Simon Freeman",
+      "aliases": [
+        "Simon Freeman"
+      ],
+      "batting": {
+        "innings": 6,
+        "runs": 11,
+        "notOuts": 2,
+        "fours": 1,
+        "sixes": 0,
+        "highScore": 5,
+        "ballsFaced": 56,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 238,
+        "maidens": 0,
+        "wickets": 3,
+        "runsConceded": 305,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Tom Morgan-Grenville",
+      "aliases": [
+        "Tom Morgan-Grenville"
+      ],
+      "batting": null,
+      "bowling": {
+        "ballsBowled": 27,
+        "maidens": 1,
+        "wickets": 4,
+        "runsConceded": 17,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Tom Scott-Combes",
+      "aliases": [
+        "Tom Scott-Combes"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 1,
+        "notOuts": 0,
+        "fours": 0,
+        "sixes": 0,
+        "highScore": 1,
+        "ballsFaced": 6,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": {
+        "ballsBowled": 24,
+        "maidens": 0,
+        "wickets": 1,
+        "runsConceded": 19,
+        "fiveWicketInnings": 0
+      }
+    },
+    {
+      "name": "Waqas",
+      "aliases": [
+        "Waqas"
+      ],
+      "batting": {
+        "innings": 1,
+        "runs": 21,
+        "notOuts": 0,
+        "fours": 5,
+        "sixes": 0,
+        "highScore": 21,
+        "ballsFaced": 26,
+        "fifties": 0,
+        "hundreds": 0
+      },
+      "bowling": null
+    }
+  ]
+}

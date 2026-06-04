@@ -111,6 +111,7 @@ Primary pink **`#fd6c9e`**, black & white, **Buenard** serif headings, the club 
 | D11 | 2026-06-04 | Future WhatsApp bot only via unofficial Baileys (always-on worker) | Official WhatsApp API can't do group bots and bans open-ended AI chat (2026); ToS/ban risk accepted as a later decision |
 | D12 | 2026-06-04 | Brand theme + "Powered by ECB Play-Cricket" footer | Logo-derived; MOU compliance |
 | D13 | 2026-06-04 | AI-maintained `skills/` docs (coding/todo/lessons) | Owner's lightweight project memory + ticketing |
+| D14 | 2026-06-04 | Legacy data transcribed via pdfplumber (positional) + verified against the PDF's printed SR/Avg/Econ — 0 mismatches; stored in `apps/api/prisma/data/legacy-2016-2018.json` | Assumptions to confirm with owner: 5wi only Joey Anderson & Jerry Jamieson (1 each); "John Papadopolous"="John Papadopoulos" (merged); "Callum" vs "Calum Mathison" kept as separate players |
 
 ## 10. Owner to-dos (external, blocking later milestones)
 - Provide Play-Cricket **`api_token`** (Club Admin → API) + the club's **play-cricket web address** (to derive `site_id`) — needed for ETL (ticket #9).
