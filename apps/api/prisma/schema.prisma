@@ -1,0 +1,63 @@
+// Plastats database schema.
+// v1 covers the legacy 2016-18 career totals + the player/alias model.
+// Granular Play-Cricket tables (matches, innings, batting_perf, bowling_perf,
+// fall_of_wickets) are added with the ETL in ticket #9.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+/// A canonical player. Play-Cricket players carry a stable playCricketId;
+/// legacy-only players have it null and are matched via aliases.
+model Player {
+  id            Int            @id @default(autoincrement())
+  playCricketId Int?           @unique
+  name          String
+  aliases       PlayerAlias[]
+  legacyBatting LegacyBatting?
+  legacyBowling LegacyBowling?
+  createdAt     DateTime       @default(now())
+}
+
+/// Free-text / nickname spellings that map to a canonical Player
+/// (e.g. legacy "Alex H" -> the Alex player).
+model PlayerAlias {
+  id       Int    @id @default(autoincrement())
+  alias    String @unique
+  player   Player @relation(fields: [playerId], references: [id])
+  playerId Int
+}
+
+/// Pre-aggregated 2016-18 batting career totals from the legacy PDF.
+model LegacyBatting {
+  id         Int    @id @default(autoincrement())
+  player     Player @relation(fields: [playerId], references: [id])
+  playerId   Int    @unique
+  innings    Int
+  notOuts    Int
+  runs       Int
+  highScore  Int
+  fours      Int
+  sixes      Int
+  ballsFaced Int
+  fifties    Int
+  hundreds   Int
+}
+
+/// Pre-aggregated 2016-18 bowling career totals from the legacy PDF.
+/// Overs are derived from ballsBowled (6 balls = 1 over).
+model LegacyBowling {
+  id                Int    @id @default(autoincrement())
+  player            Player @relation(fields: [playerId], references: [id])
+  playerId          Int    @unique
+  ballsBowled       Int
+  maidens           Int
+  runsConceded      Int
+  wickets           Int
+  fiveWicketInnings Int
+}

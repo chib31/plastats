@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16
+    container_name: plastats-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: plastats
+      POSTGRES_PASSWORD: plastats
+      POSTGRES_DB: plastats
+    ports:
+      - "5433:5432"
+    volumes:
+      - plastats-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U plastats -d plastats"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  plastats-db-data:
