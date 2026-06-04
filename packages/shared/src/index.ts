@@ -71,28 +71,32 @@ export interface BowlingRow {
   sources: DataSource[];
 }
 
-export type BattingSortKey =
-  | 'name'
-  | 'innings'
-  | 'notOuts'
-  | 'runs'
-  | 'highScore'
-  | 'average'
-  | 'strikeRate'
-  | 'fours'
-  | 'sixes'
-  | 'ballsFaced'
-  | 'fifties'
-  | 'hundreds'
-  | 'ballsPerBoundary';
+export const BATTING_SORT_KEYS = [
+  'name',
+  'innings',
+  'notOuts',
+  'runs',
+  'highScore',
+  'average',
+  'strikeRate',
+  'fours',
+  'sixes',
+  'ballsFaced',
+  'fifties',
+  'hundreds',
+  'ballsPerBoundary',
+] as const;
+export type BattingSortKey = (typeof BATTING_SORT_KEYS)[number];
 
-export type BowlingSortKey =
-  | 'name'
-  | 'ballsBowled'
-  | 'maidens'
-  | 'runsConceded'
-  | 'wickets'
-  | 'average'
-  | 'economy'
-  | 'strikeRate'
-  | 'fiveWicketInnings';
+export const BOWLING_SORT_KEYS = [
+  'name',
+  'ballsBowled',
+  'maidens',
+  'runsConceded',
+  'wickets',
+  'average',
+  'economy',
+  'strikeRate',
+  'fiveWicketInnings',
+] as const;
+export type BowlingSortKey = (typeof BOWLING_SORT_KEYS)[number];
