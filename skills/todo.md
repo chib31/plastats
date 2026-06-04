@@ -13,7 +13,7 @@ _Last updated: 2026-06-04_
 |---|--------|------|-------|
 | 1 | ✅ | Authenticate personal GitHub account & create repo `plastats` | Public, owner `chib31`; repo-local noreply identity |
 | 2 | ✅ | Create `skills/` docs (coding.md, todo.md, lessons.md) | |
-| 3 | ⬜ | Scaffold pnpm monorepo (`apps/web`, `apps/api`, `packages/shared`) | + root config, `.gitignore`, `.nvmrc`, `CLAUDE.md` |
+| 3 | ✅ | Scaffold pnpm monorepo skeleton (root + `packages/shared` + tooling + `CLAUDE.md`) | apps scaffolded in #4 (api) / #7 (web) |
 | 4 | ⬜ | Backend: NestJS + Prisma + Postgres schema + `docker-compose` (local DB) | granular + aggregate tables |
 | 5 | ⬜ | Transcribe legacy 2016–18 PDF → structured seed + loader | source: `~/Documents/Personal/...Final.pdf` |
 | 6 | ⬜ | Stats service + REST API `/api/batting` `/api/bowling` (page/sort/filter) | server-driven; legacy-only aggregates for now |
