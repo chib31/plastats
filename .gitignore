@@ -27,3 +27,6 @@ coverage/
 
 # Vite cache
 .vite/
+
+# Claude Code local config (preview launch.json, machine-specific)
+.claude/

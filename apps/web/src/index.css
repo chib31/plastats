@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #fd6c9e;
+  --color-brand-dark: #e6568b;
+  --font-display: 'Buenard', Georgia, serif;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-neutral-50 text-neutral-900 antialiased;
+  }
+}

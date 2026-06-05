@@ -4,7 +4,7 @@
 > **Maintained by AI:** update statuses as work progresses; add new tickets when plans change; never renumber existing tickets.
 > **Companions:** [`coding.md`](./coding.md) · [`lessons.md`](./lessons.md).
 
-_Last updated: 2026-06-04_
+_Last updated: 2026-06-05_
 
 **Status key:** ✅ Done · 🟡 In progress · ⬜ To do · ⛔ Blocked · 🔵 Backlog (not yet scheduled)
 
@@ -17,8 +17,8 @@ _Last updated: 2026-06-04_
 | 4 | ✅ | Backend: NestJS + Prisma + Postgres schema + `docker-compose` (local DB) | v1 tables: Player/alias + legacy batting/bowling; health endpoint verified; granular tables in #9 |
 | 5 | ✅ | Transcribe legacy 2016–18 PDF → structured seed + loader | 46 players, verified vs PDF printed stats (0 mismatches); seeded to DB |
 | 6 | ✅ | Stats service + REST API `/api/batting` `/api/bowling` (page + sort) | server-driven; derived stats verified vs PDF; legacy-only for now; filters → #13 |
-| 7 | ⬜ | Frontend: React+Vite+Tailwind, brand theme, two tabs + sortable tables | pink `#fd6c9e`, Buenard, logo |
-| 8 | ⬜ | Run full stack locally & verify legacy data renders | **Milestone 1 complete** |
+| 7 | ✅ | Frontend: React+Vite+Tailwind, brand theme, two tabs + sortable tables | TanStack server-driven tables; typechecks + builds; pink #fd6c9e, Buenard, logo |
+| 8 | 🟡 | Run full stack locally & verify legacy data renders | **PAUSED** 2026-06-05: API + web build & all endpoint checks pass; only the visual screenshot verify remains. Resume: `docker compose up -d` then preview via `.claude/launch.json` (or `pnpm dev`) |
 
 ## Milestone 2+ — live data, refresh, deploy
 | # | Status | Item | Notes |
